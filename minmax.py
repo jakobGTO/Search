@@ -23,7 +23,7 @@ class minmax(object):
         #Start timer to control runtime
         self.timer = time.time()
 
-        #Compute the children of the nodes
+        #Compute the children of the nodes.
         node_children = state.compute_and_get_children()
 
         max_depth = 20
